@@ -1,0 +1,10 @@
+.navigation {
+  display: flex;
+  list-style: none;
+  @include font($weight: 600, $size: 1.8rem, $height: 2rem);
+}
+
+.navigation__link {
+  margin-right: 20px;
+  width: max-content;
+}

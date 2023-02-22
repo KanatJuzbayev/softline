@@ -1,0 +1,30 @@
+.score {
+  text-align: left;
+  display: inline-block;
+  max-width: 270px;
+}
+
+.score__row {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  margin-bottom: 84px;
+}
+
+.score__row_second {
+  margin-left: 50px;
+  justify-content: space-evenly;
+  margin-bottom: 0px;
+}
+
+.score__number {
+  @include font($weight: 600, $size: 8rem, $height: 6.6rem);
+  color: $color-third;
+  margin: 0 0 10px 0;
+}
+
+.score__text {
+  @include font($weight: 400, $size: 1.8rem, $height: 2.8rem);
+  margin: 0;
+  height: auto;
+}

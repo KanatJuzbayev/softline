@@ -1,0 +1,20 @@
+@font-face {
+  font-family: ProximaRegular;
+  src: url("../fonts/ProximaNovaCondensed/FontsFree-Net-Proxima-Nova-Cond-Reg.otf");
+}
+
+@font-face {
+  font-family: ProximaBold;
+  src: url("../fonts/ProximaNovaCondensed/proximanovacond_bold.ttf");
+}
+
+html {
+  box-sizing: border-box;
+  font-family: ProximaRegular, sans-serif;
+  font-size: 8.5px;
+}
+
+body {
+  margin: 0;
+  color: $color-main;
+}

@@ -1,0 +1,17 @@
+.promo {
+  background-image: url("../img/background/bg.png");
+  height: 600px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.promo__content {
+  padding: 158px 0;
+  max-width: 710px;
+}
+
+.promo__title {
+  @include font($weight: 600, $size: 5.6rem, $height: 6.6rem);
+  margin: 0;
+}

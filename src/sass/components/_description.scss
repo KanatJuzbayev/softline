@@ -1,0 +1,19 @@
+.description {
+  margin-bottom: 100px;
+}
+.description__wrapper {
+  box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.08);
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.description__text {
+  @include font($weight: 600, $size: 3.2rem, $height: 142%);
+  padding: 99px 110px;
+
+  text-align: center;
+}
+
+.colored {
+  color: $color-second;
+}
