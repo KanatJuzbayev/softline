@@ -4,9 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./sass/style.css" />
     <title>Softline</title>
-    <script defer src="bandle.js"></script>
   </head>
   <body>
     <header class="section header">
@@ -78,23 +76,23 @@
         </div>
       </div>
     </section>
-    <section class="section map-navigation">
-      <div class="wrapper map-navigation__wrapper">
-        <h3 class="map-navigation__title">Офисы Softline</h3>
-        <ul class="map-navigation__list">
-          <li class="map-navigation__item active">Все</li>
-          <li class="map-navigation__item">Москва</li>
-          <li class="map-navigation__item">Центр</li>
-          <li class="map-navigation__item">Северо-Запад</li>
-          <li class="map-navigation__item">Юг</li>
-          <li class="map-navigation__item">Волга</li>
-          <li class="map-navigation__item">Урал</li>
-          <li class="map-navigation__item">Сибирь</li>
-          <li class="map-navigation__item">Дальний восток</li>
+    <section class="section map">
+      <div class="wrapper map__wrapper">
+        <h3 class="map__title">Офисы Softline</h3>
+        <ul class="map__list">
+          <li data-item="all" class="map__item active">Все</li>
+          <li data-item="moscow" class="map__item">Москва</li>
+          <li data-item="center" class="map__item">Центр</li>
+          <li data-item="northwest" class="map__item">Северо-Запад</li>
+          <li data-item="south" class="map__item">Юг</li>
+          <li data-item="volga" class="map__item">Волга</li>
+          <li data-item="ural" class="map__item">Урал</li>
+          <li data-item="siberia" class="map__item">Сибирь</li>
+          <li data-item="farEast" class="map__item">Дальний восток</li>
         </ul>
       </div>
     </section>
-    <section class="section map">
+    <section class="section">
       <div class="map-image"></div>
     </section>
   </body>

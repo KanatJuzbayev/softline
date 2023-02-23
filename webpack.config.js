@@ -17,12 +17,13 @@ const config = {
   entry: ["./src/index.js", "./src/sass/style.css"],
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "bandle.js",
+    filename: ["bandle.js", "bandle.css"],
     clean: true,
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: "./src/index.html",
+      inject: false,
     }),
     new CopyPlugin({
       patterns: [{ from: "src/img", to: "img" }],

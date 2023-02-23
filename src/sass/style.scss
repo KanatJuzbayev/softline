@@ -1,6 +1,7 @@
 // abstract
 @import "abstract/constant";
 @import "abstract/mixins";
+@import "abstract/placeholders";
 
 // base
 @import "base/logo";
@@ -17,5 +18,4 @@
 @import "components/promo";
 @import "components/description";
 @import "components/scores";
-@import "components/map-navigation";
 @import "components/map";
