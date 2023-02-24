@@ -41,8 +41,8 @@ function changeActiveMap() {
   mapItem.classList.add("active");
   mapImage.style.backgroundImage = "url(img/maps/".concat(this.dataset.item, ".svg)");
 }
-menuRegions.forEach(function (menuRegion) {
-  return menuRegion.addEventListener("click", changeActiveMap);
+menuItems.forEach(function (menuItem) {
+  return menuItem.addEventListener("click", changeActiveMap);
 });
 
 /***/ }),

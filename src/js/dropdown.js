@@ -36,6 +36,6 @@ function changeActiveMap() {
   mapImage.style.backgroundImage = `url(img/maps/${this.dataset.item}.svg)`;
 }
 
-menuRegions.forEach((menuRegion) =>
-  menuRegion.addEventListener("click", changeActiveMap)
+menuItems.forEach((menuItem) =>
+  menuItem.addEventListener("click", changeActiveMap)
 );
