@@ -697,4 +697,44 @@ ul {
   margin: 90px 30px 0;
 }
 
+.mission {
+  background-color: #a30c33;
+  height: 471px;
+  position: relative;
+  z-index: -2;
+}
+
+.mission__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 5.6rem;
+  line-height: 100%;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 139px;
+}
+
+.mission__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.2rem;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.mission-object {
+  position: absolute;
+  top: 47px;
+  z-index: -1;
+}
+
+.mission-object_left {
+  left: 0;
+}
+
+.mission-object_right {
+  right: 0;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,33 @@
+.mission {
+  background-color: $color-third;
+  height: 471px;
+  position: relative;
+  z-index: -2;
+}
+
+.mission__title {
+  @include font($weight: 600, $size: 5.6rem, $height: 100%);
+  text-align: center;
+  color: $color-light;
+  padding-top: 139px;
+}
+
+.mission__text {
+  @include font($weight: 400, $size: 3.2rem, $height: 150%);
+  text-align: center;
+  color: $color-light;
+}
+
+.mission-object {
+  position: absolute;
+  top: 47px;
+  z-index: -1;
+}
+
+.mission-object_left {
+  left: 0;
+}
+
+.mission-object_right {
+  right: 0;
+}
