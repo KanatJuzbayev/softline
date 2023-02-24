@@ -1,4 +1,4 @@
-.map-image, .map__item {
+.map-image, .map__item, .menu, .caret-rotate, .caret, .select {
   transition: All 0.1s ease-out;
 }
 
@@ -16,16 +16,16 @@
 }
 
 @font-face {
-  font-family: ProximaRegular;
+  font-family: ProximaNovaCondensed;
   src: url("../fonts/ProximaNovaCondensed/FontsFree-Net-Proxima-Nova-Cond-Reg.otf");
 }
 @font-face {
-  font-family: ProximaBold;
-  src: url("../fonts/ProximaNovaCondensed/proximanovacond_bold.ttf");
+  font-family: ProximaNova;
+  src: url("../fonts/ProximaNova/proximanova_regular.ttf");
 }
 html {
   box-sizing: border-box;
-  font-family: ProximaRegular, sans-serif;
+  font-family: ProximaNovaCondensed, sans-serif;
   font-size: 8.5px;
 }
 
@@ -452,6 +452,89 @@ ul {
   line-height: 2rem;
 }
 
+.dropdown {
+  position: relative;
+}
+
+.select {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.selected {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 100%;
+  margin-right: 12px;
+}
+
+.caret {
+  background-image: url("../img/icons/caret.svg");
+  width: 20px;
+  height: 8px;
+}
+
+.caret-rotate {
+  transform: rotate(180deg);
+}
+
+.menu {
+  padding: 30px 70px;
+  box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.06);
+  font-family: ProximaNova;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 111%;
+  position: absolute;
+  top: 65px;
+  left: -70px;
+  width: 1250px;
+  background-color: #ffffff;
+  opacity: 0;
+  display: none;
+  z-index: 1;
+}
+
+.menu__list > .region {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 111%;
+}
+
+.menu__item {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.menu__item:hover {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 111%;
+}
+
+.menu__item:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+}
+
+.menu-open {
+  display: block;
+  opacity: 1;
+  display: flex;
+}
+
 .section {
   max-width: 1250px;
   margin: auto;
@@ -589,16 +672,13 @@ ul {
   line-height: 111%;
 }
 
-.map__title {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 2.4rem;
-  line-height: 100%;
-}
-
 .map__item {
   margin-right: 30px;
   padding: 30px 0;
+}
+
+.map__item:last-child {
+  margin-right: 0px;
 }
 
 .map__item:hover {

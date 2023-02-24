@@ -1,16 +1,16 @@
 @font-face {
-  font-family: ProximaRegular;
+  font-family: ProximaNovaCondensed;
   src: url("../fonts/ProximaNovaCondensed/FontsFree-Net-Proxima-Nova-Cond-Reg.otf");
 }
 
 @font-face {
-  font-family: ProximaBold;
-  src: url("../fonts/ProximaNovaCondensed/proximanovacond_bold.ttf");
+  font-family: ProximaNova;
+  src: url("../fonts/ProximaNova/proximanova_regular.ttf");
 }
 
 html {
   box-sizing: border-box;
-  font-family: ProximaRegular, sans-serif;
+  font-family: ProximaNovaCondensed, sans-serif;
   font-size: 8.5px;
 }
 

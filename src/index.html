@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/sass/style.css" />
     <title>Softline</title>
   </head>
   <body>
@@ -78,7 +79,68 @@
     </section>
     <section class="section map">
       <div class="wrapper map__wrapper">
-        <h3 class="map__title">Офисы Softline</h3>
+        <div class="dropdown">
+          <div class="select">
+            <span class="selected">Офисы Softline</span>
+            <div class="caret"></div>
+          </div>
+          <div class="menu">
+            <ul class="menu__list">
+              <li data-item="moscow" class="menu__item region">Москва</li>
+            </ul>
+            <ul class="menu__list">
+              <li data-item="center" class="menu__item region">Центр</li>
+              <li class="menu__item">Воронеж</li>
+              <li class="menu__item">Ярославль</li>
+              <li class="menu__item">Белгород</li>
+            </ul>
+            <ul class="menu__list">
+              <li data-item="northwest" class="menu__item region">
+                Северо-Запад
+              </li>
+              <li class="menu__item">Санкт-Петербург</li>
+              <li class="menu__item">Калининград</li>
+            </ul>
+            <ul class="menu__list">
+              <li data-item="south" class="menu__item region">Юг</li>
+              <li class="menu__item">Ростов-на-Дону</li>
+              <li class="menu__item">Краснодар</li>
+              <li class="menu__item">Волгоград</li>
+            </ul>
+            <ul class="menu__list">
+              <li data-item="volga" class="menu__item region">Волга</li>
+              <li class="menu__item">Казань</li>
+              <li class="menu__item">Самара</li>
+              <li class="menu__item">Уфа</li>
+              <li class="menu__item">Оренбург</li>
+              <li class="menu__item">Нижний Новгород</li>
+            </ul>
+            <ul class="menu__list">
+              <li data-item="ural" class="menu__item region">Урал</li>
+              <li class="menu__item">Екатеринбург</li>
+              <li class="menu__item">Челябинск</li>
+              <li class="menu__item">Пермь</li>
+              <li class="menu__item">Сургут</li>
+              <li class="menu__item">Тюмень</li>
+              <li class="menu__item">Ижевск</li>
+            </ul>
+            <ul class="menu__list">
+              <li data-item="siberia" class="menu__item region">Сибирь</li>
+              <li class="menu__item">Новосибирск</li>
+              <li class="menu__item">Омск</li>
+              <li class="menu__item">Томск</li>
+              <li class="menu__item">Красноярск</li>
+              <li class="menu__item">Иркутск</li>
+            </ul>
+            <ul class="menu__list">
+              <li data-item="farEast" class="menu__item region">
+                Дальний Восток
+              </li>
+              <li class="menu__item">Хабаровск</li>
+              <li class="menu__item">Владивосток</li>
+            </ul>
+          </div>
+        </div>
         <ul class="map__list">
           <li data-item="all" class="map__item active">Все</li>
           <li data-item="moscow" class="map__item">Москва</li>
