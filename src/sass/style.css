@@ -556,6 +556,15 @@ ul {
   height: 100%;
 }
 
+.layout-2-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.layout-2-column > * {
+  flex-basis: 615px;
+}
+
 .navigation {
   display: flex;
   list-style: none;
@@ -735,6 +744,70 @@ ul {
 
 .mission-object_right {
   right: 0;
+}
+
+.business-field__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 5.6rem;
+  line-height: 100%;
+  text-align: center;
+  margin: 100px 0 55px;
+}
+
+.field {
+  height: 260px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  margin-bottom: 22px;
+  position: relative;
+}
+
+.solution_field {
+  background-image: url("../img/field/solution.png");
+}
+
+.cybersecurity_field {
+  background-image: url("../img/field/cybersecurity.png");
+}
+
+.impotence_field {
+  background-image: url("../img/field/impotence.png");
+}
+
+.cloud_field {
+  background-image: url("../img/field/cloud.png");
+}
+
+.development_field {
+  background-image: url("../img/field/development.png");
+}
+
+.support_field {
+  background-image: url("../img/field/support.png");
+}
+
+.field__description {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  background: #2d3653;
+  opacity: 0.6;
+  z-index: 1;
+}
+
+.field__name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 100%;
+  color: #ffffff;
+  z-index: -10;
+  position: relative;
+  margin-left: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
