@@ -41,12 +41,32 @@
   background: #2d3653;
   opacity: 0.6;
   z-index: 1;
+  transition: All 0.4s ease-out;
+  color: $color-light;
+}
+
+.field:hover {
+  .field__description {
+    height: 100%;
+  }
+  .field__text {
+    visibility: visible;
+    opacity: 1;
+  }
 }
 
 .field__name {
   @include font($weight: 600, $size: 2.4rem, $height: 100%);
-  color: $color-light;
-  z-index: -10;
+  z-index: 10;
   position: relative;
   margin-left: 20px;
+}
+
+.field__text {
+  @include font($weight: 400, $size: 1.7rem, $height: 140%);
+  width: 480px;
+  margin-left: 20px;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
 }
