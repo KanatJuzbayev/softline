@@ -1,0 +1,107 @@
+.benefits__wrapper {
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.06);
+  height: auto;
+}
+
+.compensation__wrapper {
+  width: 958px;
+  margin: auto;
+}
+
+.compensation__title {
+  @include font($weight: 600, $size: 5.6rem, $height: 100%);
+  text-align: center;
+  padding: 80px 0 50px;
+  margin: 0 auto;
+}
+
+.compensations {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.compensation__item {
+  width: 178px;
+  text-align: center;
+}
+
+.icon {
+  height: 110px;
+  width: 110px;
+  display: inline-block;
+}
+
+.icon_dms {
+  background-image: url("../img/icons/dms.svg");
+}
+.icon_birthday {
+  background-image: url("../img/icons/birthday.svg");
+}
+.icon_mobile {
+  background-image: url("../img/icons/mobile.svg");
+}
+.icon_sport {
+  background-image: url("../img/icons/sport.svg");
+}
+.icon_home {
+  background-image: url("../img/icons/home.svg");
+}
+.icon_equipment {
+  background-image: url("../img/icons/equipment.svg");
+}
+.icon_home {
+  background-image: url("../img/icons/home.svg");
+}
+
+.compensation__name {
+  @include font($weight: 400, $size: 1.8rem, $height: 110%);
+  text-align: center;
+  margin: 10px 0 0;
+}
+
+.line {
+  width: 1050px;
+  height: 0px;
+  opacity: 0.1;
+  border: 1px solid #000000;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.programm__wrapper {
+}
+
+.programm__title {
+  @include font($weight: 600, $size: 4rem, $height: 120%);
+  text-align: center;
+  margin: 0 0 4px;
+}
+
+.programm__title_colored {
+  @include font($weight: 600, $size: 4rem, $height: 120%);
+  text-align: center;
+  color: $color-third;
+  margin: 0 0 4px;
+}
+
+.programms {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 490px;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.programm__item {
+  width: 178px;
+  text-align: center;
+}
+
+.programm__name {
+  @include font($weight: 400, $size: 1.8rem, $height: 110%);
+  text-align: center;
+  margin: 10px 0 0;
+}

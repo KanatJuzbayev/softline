@@ -1,3 +1,7 @@
+.business-field {
+  margin-bottom: 100px;
+}
+
 .business-field__title {
   @include font($weight: 600, $size: 5.6rem, $height: 100%);
   text-align: center;
@@ -27,9 +31,11 @@
 }
 .development_field {
   background-image: url("../img/field/development.png");
+  margin-bottom: 0;
 }
 .support_field {
   background-image: url("../img/field/support.png");
+  margin-bottom: 0;
 }
 
 .field__description {
