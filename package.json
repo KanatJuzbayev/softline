@@ -28,6 +28,7 @@
   "name": "my-webpack-project",
   "dependencies": {
     "node-sass": "^8.0.0",
-    "source-map-loader": "^4.0.1"
+    "source-map-loader": "^4.0.1",
+    "swiper": "^9.0.5"
   }
 }

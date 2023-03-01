@@ -1,0 +1,79 @@
+.corporate-life {
+}
+
+.corporate-life__title {
+  @include font($weight: 600, $size: 5.6rem, $height: 100%);
+  margin: 100px 0 30px;
+}
+
+.swiper {
+  width: 1110px;
+  height: 1100px;
+}
+
+.swiper-slide {
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  height: 834px;
+}
+
+.swiper-slide_1 {
+  background-image: url("../img/slider/slide1.png");
+}
+.swiper-slide_2 {
+  background-image: url("../img/slider/slide2.png");
+}
+.swiper-slide_3 {
+  background-image: url("../img/slider/slide3.png");
+}
+.swiper-slide_4 {
+  background-image: url("../img/slider/slide4.png");
+}
+.swiper-slide_5 {
+  background-image: url("../img/slider/slide5.png");
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: 56px;
+  height: 56px;
+}
+
+// custome proporties by figma, but not useful
+// .swiper-button-prev {
+//   top: 120px;
+//   left: auto;
+//   right: 76px;
+// }
+
+// .swiper-button-next {
+//   top: 120px;
+//   right: 0;
+// }
+
+.swiper-button-prev {
+  background-image: url("../img/slider/prev.svg");
+}
+.swiper-button-next {
+  background-image: url("../img/slider/next.svg");
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  content: "";
+}
+
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: 56px;
+  top: auto;
+  left: 0;
+  width: 100%;
+}
+
+.swiper-pagination-bullet {
+  width: 214px;
+  height: 6px;
+  background: #a30c33;
+  border-radius: 0%;
+}
